@@ -3,13 +3,13 @@ import { Navbar, Header, Footer, AboutUs, Founder, Team, } from '../components';
 
 const MainPage = () => {
     return (
-        <div>
+        <div >
             <Navbar />
             <Header />
             <AboutUs />
             <Founder />
             <Team />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
