@@ -7,7 +7,7 @@ import ProductPage from './pages/ProductPage';
 
 
 function App() {
-  const { loading, data, error } = useFetch('http://localhost:1337/api/blogs?populate=*');
+  const { loading, data, error } = useFetch('https://awesome-excellence-748f5465f5.strapiapp.com/api/blogs?populate=*');
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error!</p>;
