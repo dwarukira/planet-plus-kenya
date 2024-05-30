@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import useFetch from './hooks/useFetch';
-import { Homepage, BlogContentPage, GalleryPage, MainPage, PartnersPage, } from './pages';
+import { Homepage, BlogContentPage, GalleryPage, MainPage, PartnersPage, ProgramsPage, } from './pages';
 import ProductPage from './pages/ProductPage';
 
 
@@ -22,6 +22,7 @@ function App() {
         <Route path='/blogs' element={<Homepage blogs={data} />} />
         <Route path='/blog/:id' element={<BlogContentPage blogs={data} />} />
         <Route path='/gallery' element={<GalleryPage />} />
+        <Route path='/programs' element={<ProgramsPage />} />
       </Routes>
 
     </div>

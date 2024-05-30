@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+// import { ReactMarkdown } from 'react-markdown/lib/React-Markdown'
 
 function BlogContent({ blogs }) {
     const { id } = useParams();
@@ -20,7 +21,7 @@ function BlogContent({ blogs }) {
                 return (
                     <img
                         key={index}
-                        src={`http://localhost:1337${content.image.url}`}
+                        src={content.image.url}
                         alt={content.image.alt || 'Blog image'}
                         className="w-full object-cover my-4 line-break"
                     />
@@ -41,7 +42,7 @@ function BlogContent({ blogs }) {
                     <div className='col-span-2 gap-x-8 gap-y-8'>
                         {blog.attributes?.coverImg?.data?.attributes?.url && (
                             <img
-                                src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`}
+                                src={blog.attributes.coverImg.data.attributes.url}
                                 className='max-h-[300px] w-full object-cover'
                                 alt={blog.attributes?.blogTitle}
                             />
@@ -59,7 +60,7 @@ function BlogContent({ blogs }) {
                         <div>
                             {blog.attributes?.authorImg?.data?.attributes?.url && (
                                 <img
-                                    src={`http://localhost:1337${blog.attributes.authorImg.data.attributes.url}`}
+                                    src={blog.attributes.authorImg.data.attributes.url}
                                     className='p-2 w-[150px] h-[150px] rounded-full mx-auto object-cover'
                                     alt={blog.attributes?.authorName}
                                 />

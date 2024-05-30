@@ -9,6 +9,8 @@ import Team from "./Team";
 import Founder from "./Founder";
 import Partners from "./Partners";
 import Product from "./Product";
+import Programs from "./Programs";
+import AllPrograms from "./AllPrograms";
 
 export {
     Navbar,
@@ -21,5 +23,7 @@ export {
     Team,
     Founder,
     Partners,
-    Product
+    Product,
+    Programs,
+    AllPrograms,
 }

@@ -12,44 +12,44 @@ const Team = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={juliana} className="w-full h-[80%] object-cover rounded-t-md" alt="Juliana Kimani"/>
+                        <img src={juliana} className="w-full h-[80%] object-cover rounded-t-md" alt="Juliana Kimani" />
                         <div className="p-4">
                             <h4 className="text-xl font-extrabold">Juliana Kimani</h4>
                             <p className="text-xs mt-1">Partnerships and Stakeholder Engagement.</p>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={roselindah} className="w-full h-[80%] object-cover rounded-t-md" alt="Roselindah Atieno"/>
+                        <img src={roselindah} className="w-full h-[80%] object-cover rounded-t-md" alt="Roselindah Atieno" />
                         <div className="p-4">
                             <h4 className="text-xl font-extrabold">Roselindah Atieno</h4>
-                            <p className="text-xs mt-1">Community Welfare.</p>
+                            <p className="text-xs mt-1">Community Health.</p>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={idah} className="w-full h-[80%] object-cover rounded-t-md" alt="Idah Odeka"/>
+                        <img src={idah} className="w-full h-[80%] object-cover rounded-t-md" alt="Idah Odeka" />
                         <div className="p-4">
                             <h4 className="text-xl font-extrabold">Idah Odeka</h4>
                             <p className="text-xs mt-1">Urbanism, Circular Economy, and Sustainable Development.</p>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={diana} className="w-full h-[80%] object-cover rounded-t-md" alt="Diana Musa"/>
+                        <img src={diana} className="w-full h-[80%] object-cover rounded-t-md" alt="Diana Musa" />
                         <div className="p-4">
                             <h4 className="text-xl font-extrabold">Diana Musa</h4>
                             <p className="text-xs mt-1">Social Enterprises.</p>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={marleen} className="w-full h-[80%] object-cover rounded-t-md" alt="Marleen Atieno"/>
+                        <img src={marleen} className="w-full h-[80%] object-cover rounded-t-md" alt="Marleen Atieno" />
                         <div className="p-4">
                             <h4 className="text-xl font-extrabold">Marleen Atieno</h4>
                             <p className="text-xs mt-1">Gender, Children, and Climate Action.</p>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
-                        <img src={beverley} className="w-full h-[80%] object-cover rounded-t-md" alt="Beverley Masita"/>
+                        <img src={beverley} className="w-full h-[80%] object-cover rounded-t-md" alt="Beverley Masita" />
                         <div className="p-4">
-                            <h4 className="text-xl font-extrabold">Beverley Masita</h4>
+                            <h4 className="text-xl font-extrabold">Beverly Masita</h4>
                             <p className="text-xs mt-1">Communications and PR.</p>
                         </div>
                     </div>

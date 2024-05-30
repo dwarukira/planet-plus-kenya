@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { ayi, biupe, chyulu, g, gro, honey1, kefri, kfs, tani } from '../assets'
+import { ayi, biupe, chyulu, ckl, g, gro, honey1, kefri, kfs, tani } from '../assets'
 
 const Partners = () => {
     return (
@@ -65,6 +65,13 @@ const Partners = () => {
                 <img
                     className="h-40 max-w-150 rounded-lg object-fit object-center"
                     src={tani}
+                    alt="gallery-photo"
+                />
+            </div>
+            <div>
+                <img
+                    className="h-40 max-w-150 rounded-lg object-fit object-center"
+                    src={ckl}
                     alt="gallery-photo"
                 />
             </div>

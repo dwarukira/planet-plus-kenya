@@ -4,7 +4,7 @@ import { head } from '../assets'
 const Header = () => {
     return (
 
-        <div className="z-0 relative bg-gradient-to-r from-green-200 to-green-100 py-16 font-sans">
+        <div className="z-0 relative bg-gradient-to-r from-black to-black py-16 font-sans">
             <div className="absolute inset-0">
                 <img
                     src={head}

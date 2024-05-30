@@ -23,9 +23,14 @@ import honey from './honey.jpg'
 import kefri from './kefri.png'
 import kfs from './kfs.jpg'
 import tani from './tani.png'
-
+import ckl from './ckl.jpg'
+import restoration from './restoration.jpg'
+import education from './education.jpeg'
 
 export {
+    restoration,
+    education,
+    ckl,
     tani,
     ayi,
     biupe, 
