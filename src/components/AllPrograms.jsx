@@ -6,7 +6,7 @@ const AllPrograms = () => {
             <h1 className="text-center font-serif font-extrabold text-3xl mb-4">
                 Landscape restoration and climate action
             </h1>
-            <p className="mb-3 text-black dark:text-black first-letter:text-5xl first-letter:font-bold first-letter:text-black dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start">
+            <p className="mb-3 text-black dark:text-black first-letter:text-5xl first-letter:font-bold first-letter:text-black dark:first-letter:text-black first-letter:me-3 first-letter:float-start">
                 Landscape restoration plays a critical role in climate action by
                 addressing both the causes and impacts of climate change. Here's how
                 landscape restoration contributes to climate action:
@@ -64,7 +64,7 @@ const AllPrograms = () => {
             <h1 className="text-center font-serif font-extrabold text-3xl mb-4">
                 Education for sustainable development
             </h1>
-            <p className="mb-3 text-black dark:text-black first-letter:text-5xl first-letter:font-bold first-letter:text-black dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start">
+            <p className="mb-3 text-black dark:text-black first-letter:text-5xl first-letter:font-bold first-letter:text-black dark:first-letter:text-black first-letter:me-3 first-letter:float-start">
                 Education for sustainable development (ESD) is essential for fostering the knowledge, skills, values, and attitudes needed to build a sustainable future. The objectives of this program include but are not limited to:
             </p>
             <ul className="list-disc px-10">
