@@ -1,15 +1,15 @@
 import React from 'react';
-import { Navbar, Header, Footer, AboutUs, Founder, Team, Programs, } from '../components';
+import { Navbar, Header, Footer, Programs, Events, Stats, Updates, } from '../components';
 
 const MainPage = () => {
     return (
         <div >
             <Navbar />
             <Header />
-            <AboutUs />
+            <Stats />
             <Programs />
-            <Founder />
-            <Team />
+            <Updates />
+            {/* <Events /> */}
             <Footer />
         </div>
     )

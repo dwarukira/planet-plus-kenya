@@ -11,19 +11,27 @@ import Partners from "./Partners";
 import Product from "./Product";
 import Programs from "./Programs";
 import AllPrograms from "./AllPrograms";
+import Events from "./Events";
+import Stats from "./Stats";
+import History from "./History";
+import Updates from "./Updates";
 
 export {
-    Navbar,
-    Blogs,
-    Footer,
-    BlogContent,
-    Header,
-    AboutUs,
-    Gallery,
-    Team,
-    Founder,
-    Partners,
-    Product,
-    Programs,
-    AllPrograms,
-}
+  Navbar,
+  Blogs,
+  Footer,
+  BlogContent,
+  Header,
+  AboutUs,
+  Gallery,
+  Team,
+  Founder,
+  Partners,
+  Product,
+  Programs,
+  AllPrograms,
+  Events,
+  Stats,
+  History,
+  Updates,
+};

@@ -3,8 +3,7 @@ import { head } from '../assets'
 
 const Header = () => {
     return (
-
-        <div className="z-0 relative bg-gradient-to-r from-black to-black py-16 font-sans">
+        <div className="z-0 relative bg-gradient-to-r from-slate-500 via-slate-500 to-slate-500 py-32 min-h-screen font-serif">
             <div className="absolute inset-0">
                 <img
                     src={head}
@@ -12,24 +11,18 @@ const Header = () => {
                     className="w-full h-full object-cover opacity-50"
                 />
             </div>
-            <div className="relative max-w-screen-xl mx-auto px-4 z-10 text-center">
-                <h1 className="text-4xl md:text-8xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-800 to-green-500 py-10 font-serif">
-                    Planet Plus Kenya
-                </h1>
-                <p className="text-4xl font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
+            <div className="absolute bottom-0 left-0 mx-4 mb-8 z-10 text-left block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 justify-start items-start">
+                <p className="text-3xl font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
                     For People
                 </p>
-                <p className="text-3xl font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
+                <p className="text-3xl pl-8 font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
                     For Planet
                 </p>
-                <p className="text-2xl font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
+                <p className="text-2xl pl-14 font-bold md:text-4xl mb-8 text-transparent bg-clip-text bg-gradient-to-r from-black to-green-400 font-serif">
                     For Prosperity
                 </p>
             </div>
         </div>
-
-
-
     )
 }
 
