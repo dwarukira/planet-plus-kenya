@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Header, Footer, Programs, Events, Stats, Updates, } from '../components';
+import { Navbar, Header, Footer, Programs, Stats, Updates, } from '../components';
 
 const MainPage = () => {
     return (
@@ -9,7 +9,6 @@ const MainPage = () => {
             <Stats />
             <Programs />
             <Updates />
-            {/* <Events /> */}
             <Footer />
         </div>
     )

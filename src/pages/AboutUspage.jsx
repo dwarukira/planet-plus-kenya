@@ -1,10 +1,11 @@
 import React from 'react'
-import { AboutUs, Footer, Founder, History, Navbar, Team } from '../components'
+import { AboutUs, Description, Footer, Founder, History, Navbar, Team } from '../components'
 
 const AboutUspage = () => {
     return (
         <div>
             <Navbar />
+            <Description />
             <History />
             <AboutUs />
             <Founder />

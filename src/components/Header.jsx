@@ -3,7 +3,7 @@ import { head } from '../assets'
 
 const Header = () => {
     return (
-        <div className="z-0 relative bg-gradient-to-r from-slate-500 via-slate-500 to-slate-500 py-32 min-h-screen font-serif">
+        <div className="z-0 relative bg-slate-700 py-32 min-h-screen font-serif">
             <div className="absolute inset-0">
                 <img
                     src={head}

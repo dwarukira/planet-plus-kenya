@@ -15,6 +15,8 @@ import Events from "./Events";
 import Stats from "./Stats";
 import History from "./History";
 import Updates from "./Updates";
+import Description from "./Description";
+import HoneyDesc from "./HoneyDesc";
 
 export {
   Navbar,
@@ -34,4 +36,6 @@ export {
   Stats,
   History,
   Updates,
+  Description,
+  HoneyDesc,
 };

@@ -26,7 +26,11 @@ const Footer = () => {
                     <div className='bg-gradient-to-t from-slate-600 to-green-300 text-white rounded-lg shadow p-4 md:p-6'>
                         <h6 className='font-bold uppercase py-2'>Mzee Konana and Anupi's Honey</h6>
                         <ol className='text-center'>
-                            <li className='py-1'>+254 727 899560</li>
+                            <li className='py-1'>
+                                <a href="https://wa.me/254727899560" target="_blank" rel="noopener noreferrer">
+                                    +254 727 899560
+                                </a>
+                            </li>
                         </ol>
                     </div>
                 </div>
@@ -43,9 +47,17 @@ const Footer = () => {
             <div className='flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500'>
                 <p><strong className='text-gray-600'>2024 Planet Plus Kenya.</strong> All Rights Reserved.</p>
                 <div className='flex justify-evenly sm:w-[300px] pt-4 text-2xl gap-2'>
-                    <FaFacebook className='cursor-pointer text-gray-400' />
-                    <FaInstagram className='cursor-pointer text-gray-400' />
-                    <FaLinkedin className='cursor-pointer text-gray-400' />
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook className='cursor-pointer text-gray-400' />
+                    </a>
+
+                    <a href="https://www.instagram.com/_planet_plus/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className='cursor-pointer text-gray-400' />
+                    </a>
+                    <a href="https://www.linkedin.com/company/planet-plus-kenya?trk=public_post_main-feed-card_reshare_feed-actor-name" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className='cursor-pointer text-gray-400' />
+                    </a>
+
                 </div>
             </div>
         </div>

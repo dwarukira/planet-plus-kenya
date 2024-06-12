@@ -33,9 +33,9 @@ const History = () => {
                         <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                     </div>
                     <div className="mt-3 sm:pe-8">
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Start of Activities</h3>
-                        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April, 2023</time>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Planet Plus Kenya kickstarted its tree planting campaign at Mukuru in Nairobi county. This was in collaboration with a member CBO known as Biupe Innovators.</p>
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Inaugural event</h3>
+                        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March, 2023</time>
+                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Planet Plus Kenya kickstarted its tree planting campaign at Mukuru kwa Reuben in Nairobi county. This was in collaboration with a member CBO known as Biupe Innovators. In attendance were members of the community, a representative from CKL LImited Africa, and acommunity outreach team from KEFRI. </p>
                     </div>
                 </li>
                 <li className="relative mb-6 sm:mb-0">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { beverley, diana, idah, juliana, marleen, roselindah } from '../assets'; // Replace with actual import paths
+import { beverley, diana, idah, juliana, marleen, roselindah } from '../assets';
 
 const Team = () => {
     return (
@@ -21,7 +21,7 @@ const Team = () => {
                     <div className="bg-white rounded-md h-[400px] flex flex-col shadow-md">
                         <img src={roselindah} className="w-full h-[80%] object-cover rounded-t-md" alt="Roselindah Atieno" />
                         <div className="p-4">
-                            <h4 className="text-xl font-extrabold">Roselindah Atieno</h4>
+                            <h4 className="text-xl font-extrabold">Roselindah Atero</h4>
                             <p className="text-xs mt-1">Community Health.</p>
                         </div>
                     </div>

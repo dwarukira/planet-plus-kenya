@@ -46,7 +46,7 @@ const Stats = () => {
                             <div className="hidden md:block absolute top-1/2 right-0 w-px h-28 bg-gray-200 transform -translate-y-1/2"></div>
                             <div className="md:hidden absolute bottom-0 left-1/2 h-px w-40 bg-gray-200 transform -translate-x-1/2"></div>
                             <div className="text-center">
-                                <span className="block text-5xl lg:text-7xl font-bold text-gray-900 mb-5">150k+</span>
+                                <span className="block text-5xl lg:text-7xl font-bold text-gray-900 mb-5">250k+</span>
                                 <span className="text-xl text-gray-500">Trees planted in the April-June rainy season, 2023.</span>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const Stats = () => {
                         <div className=" mt-8 w-full md:w-1/3 px-4">
                             <div className="text-center">
                                 <span className="block text-5xl lg:text-7xl font-bold text-gray-900 mb-5">80%</span>
-                                <span className="text-xl text-gray-500">Growth rate of planted trees. This has grately transformed the landscape of the areas we have planted, especially in the arid and semi-arid regions.</span>
+                                <span className="text-xl text-gray-500">Survival rate of planted trees. This has grately transformed the landscape of the areas we have planted, especially in the arid and semi-arid regions.</span>
                             </div>
                         </div>
                     </div>
