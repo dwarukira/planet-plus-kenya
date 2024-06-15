@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden md:flex sm:mr-10 md:mr-10'>
-                    <button className='bg-green-500 border border-green-500 rounded px-4 py-2 mr-4'><Link to="/blogs">Blog</Link></button>
+                    <button className='bg-green-500 border border-green-500 rounded px-4 py-2 mr-4'><Link to="/">Blog</Link></button>
                 </div>
                 <div className='md:hidden' onClick={handleClick}>
                     <IoIosLeaf className='w-10 h-10 mr-2' />
