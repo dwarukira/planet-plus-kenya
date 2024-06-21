@@ -6,10 +6,10 @@ import { Homepage, BlogContentPage, GalleryPage, MainPage, PartnersPage, Program
 import ProductPage from './pages/ProductPage';
 
 function App() {
-  // const { loading, data, error } = useFetch('http://localhost:1338/api/blogs');
-  // console.log(data);
-  // if (loading) return <p>Loading...</p>;
-  // if (error) return <p>Error!</p>;
+  const { loading, data, error } = useFetch('https://apiv1.planetpluskenya.co.ke/api.php?endpoint=all');
+console.log(data);
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error!</p>;
 
   return (
     <div>
@@ -19,10 +19,8 @@ function App() {
         <Route path='/partners' element={<PartnersPage />} />
         <Route path='/about' element={<AboutUspage />} />
         <Route path='/events' element={<EventsPage />} />
-        <Route path='/blogs' element={<Homepage  />} />
-        {/* <Route path='/blogs' element={<Homepage blogs={data} />} /> */}
-        <Route path='/blog/:id' element={<BlogContentPage />} />
-        {/* <Route path='/blog/:id' element={<BlogContentPage blogs={data} />} /> */}
+        <Route path='/blogs' element={<Homepage blogs={data} />} />
+        <Route path='/blog/:id' element={<BlogContentPage blogs={data} />} />
         <Route path='/gallery' element={<GalleryPage />} />
         <Route path='/programs' element={<ProgramsPage />} />
       </Routes>

@@ -5,7 +5,7 @@ const BlogContentPage = ({ blogs }) => {
   return (
     <div>
       <Navbar />
-      <BlogContent blogs={blogs ? blogs : { data: [] }} />
+      <BlogContent blogs={blogs} />
       <Footer />
     </div>
   );
