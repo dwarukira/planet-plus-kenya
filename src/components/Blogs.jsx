@@ -15,7 +15,7 @@ const Blogs = ({ blogs }) => {
               <div className='bg-white rounded-xl overflow-hidden drop-shadow-md'>
                 {blog.cover_photo_path && (
                   <img
-                  src={`https://admin.planetpluskenya.co.ke/storage/app/public/${blog.cover_photo_path}`}
+                  src={`https://dashboard.planetpluskenya.co.ke/storage/app/public/${blog.cover_photo_path}`}
                     className='h-56 w-full object-cover'
                     alt={blog.title}
                   />

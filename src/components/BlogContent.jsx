@@ -18,7 +18,7 @@ function BlogContent({ blogs }) {
           <div className='col-span-2 gap-x-8 gap-y-8'>
             {blog.cover_photo_path && (
               <img
-                src={`https://admin.planetpluskenya.co.ke/storage/app/public/${blog.cover_photo_path}`}
+                src={`https://dashboard.planetpluskenya.co.ke/storage/app/public/${blog.cover_photo_path}`}
                 className='max-h-[300px] w-full object-cover'
                 alt={blog.title}
               />
