@@ -11,7 +11,7 @@ const Blogs = ({ blogs }) => {
       <div className='max-w-[1240px] mx-auto '>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-2 xs:grid-cols-2 gap-8 px-4 text-black'>
           {blogs.map((blog) => (
-            <Link to={`/blog/${blog.id}`} key={blog.id}>
+            <Link to={`/blog/${blog.slug}`} key={blog.slug}>
               <div className='bg-white rounded-xl overflow-hidden drop-shadow-md'>
                 {blog.cover_photo_path && (
                   <img

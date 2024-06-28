@@ -5,7 +5,7 @@ import { logo } from "../assets";
 
 function BlogContent({ blogs }) {
   const { id } = useParams();
-  const blog = blogs?.find((blog) => blog.id == id);
+  const blog = blogs?.find((blog) => blog.slug == id);
 
   if (!blog) {
     return <div>Blog post not found</div>;
